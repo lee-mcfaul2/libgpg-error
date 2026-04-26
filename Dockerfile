@@ -99,7 +99,6 @@ RUN set -eux \
       liberror-perl=0.17030-1 \
       libevent-2.1-7t64=2.1.12-stable-10build2 \
       libexpat1=2.7.4-1 \
-      libffi-dev=3.5.2-4 \
       libffi8=3.5.2-4 \
       libgcc-15-dev=15.2.0-16ubuntu1 \
       libgcc-s1=16-20260322-1ubuntu1 \
@@ -136,6 +135,7 @@ RUN set -eux \
       libldap-dev=2.6.10+dfsg-1ubuntu5 \
       libldap2=2.6.10+dfsg-1ubuntu5 \
       liblsan0=16-20260322-1ubuntu1 \
+      liblzma-dev=5.8.3-1 \
       liblzma5=5.8.3-1 \
       libmagic-mgc=1:5.46-5build2 \
       libmagic1t64=1:5.46-5build2 \
@@ -183,6 +183,7 @@ RUN set -eux \
       libxml-sax-base-perl=1.09-3 \
       libxml-sax-perl=1.02+dfsg-4 \
       libxml2-16=2.15.2+dfsg-0.1 \
+      libxml2-dev=2.15.2+dfsg-0.1 \
       libzstd-dev=1.5.7+dfsg-3 \
       libzstd1=1.5.7+dfsg-3 \
       linux-libc-dev=7.0.0-14.14 \
@@ -258,6 +259,7 @@ RUN set -eux \
       '42705a701a98d84c203c6f96f08c6fd6a29a1ef978683e1ffbf0e27535b20ddb  libtinfo6_6.6+20251231-1_amd64.deb' \
       '434394dc6703f8e195c19764bd03aa55a0a9986749285fd7abe0a0e4ab086cfc  autotools-dev_20240727.1build1_all.deb' \
       '471b02803d2ff240a28d03059ac9bd676b1f9e25bfd84b8feef95171bbf1da90  procps_2%3a4.0.4-9ubuntu1_amd64.deb' \
+      '4755b21ef0f3c04a9b7544d31341e8fbf3e835817e7b65e5f1b7e17b855c3c43  liblzma-dev_5.8.3-1_amd64.deb' \
       '47d00e206617cc92aa319b6b0430f77460826bd7f15c1b3d5171e1646545f9f2  libproc2-0_2%3a4.0.4-9ubuntu1_amd64.deb' \
       '484ac5fd30a19bfade8db336fe70f3c046beccd1c9a9ac327fcd89d29dd5a125  libcc1-0_16-20260322-1ubuntu1_amd64.deb' \
       '49c68d09ceaaf5198966cf1e077ae9bf23d345189cb90e564bcd6594fd83a9fd  init-system-helpers_1.69_all.deb' \
@@ -287,7 +289,6 @@ RUN set -eux \
       '6bd25c936289463c6472290d3b4377edf8dd4f5e3a07f356fb0adf2de04a8055  libhwasan0_16-20260322-1ubuntu1_amd64.deb' \
       '6c8def1cafec89468fef8bd0d7a4eb66192a7850bf17c9decf7bca8fcf3dd5fa  libc6-dev_2.43-2ubuntu2_amd64.deb' \
       '6d81369284ba3fd094f635fe6b9f8dfc71baaca36c1f758fe62244839e25ecf0  libzstd-dev_1.5.7+dfsg-3_amd64.deb' \
-      '6f594146dc6f5d77694811c38c6743a99424e5bdd2e955afa82fcd19883f42cc  libffi-dev_3.5.2-4_amd64.deb' \
       '6fb2dd68379bf9578af5ead58203ab322e3b1cf3a6f9562a1e4d12c18e923bfc  gettext_0.23.2-1_amd64.deb' \
       '707572352c05ef47816d4abe1c299172d29b22c096eb6cd56494997223f79b99  comerr-dev_2.1-1.47.2-3ubuntu4_amd64.deb' \
       '7393f33be5584941bcfbd03a25901058c708046ee5dded01c21d56652a2d0eb7  gcc-x86-64-linux-gnu_4%3a15.2.0-5ubuntu1_amd64.deb' \
@@ -358,6 +359,7 @@ RUN set -eux \
       'e70d3422e24b267293215134458f340944bf10e92b27147594c69a7dd2823089  libp11-kit0_0.26.2-2_amd64.deb' \
       'e9329ba8c8c92b6cb10e3adf8bb75ed6289ada8e4f395550b3f1dc84f251f7ac  libgssapi-krb5-2_1.22.1-2ubuntu4_amd64.deb' \
       'e9ef750cc8ba426dee52f56aba0150e7e463b2658173bed8c4ca2927eec1c447  libgdbm-compat4t64_1.26-1build1_amd64.deb' \
+      'ea6f8b04b5902cbd1e33aad8a3fe78c7a18515d7ac6f9b67e0b03f5f8a23a285  libxml2-dev_2.15.2+dfsg-0.1_amd64.deb' \
       'ea7d3cc642ffe2459c35a85c894f80e92499b9eba13bdcb225e0aa751c0970be  libkeyutils1_1.6.3-6ubuntu3_amd64.deb' \
       'eb155f0a9531b5f3b1c06e0e415c4cd7e01777e7714cf51ac094fa6afa01638f  debianutils_5.23.2build1_amd64.deb' \
       'eb5ba6fd4ec1a68801e757f4492c6c6b30119ff277ac9d99629a011559c963f0  libc-gconv-modules-extra_2.43-2ubuntu2_amd64.deb' \
